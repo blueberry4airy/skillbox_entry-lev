@@ -1,0 +1,136 @@
+@media (max-width: 991px) {
+  .hero-img {
+    padding-top: 126px;
+  }
+
+  .hero__title {
+    margin-bottom: 17px;
+    font-size: 50px;
+  }
+
+  .advantages-img {
+    background-image: url("../img/advantages-md.png");
+  }
+
+  .advantages__item::before {
+    margin-bottom: 11px;
+  }
+
+  .teachers__list {
+    row-gap: 21px;
+  }
+
+  .courses__btn {
+    padding: 20px 55px;
+  }
+
+    .courses__content {
+    min-height: 376px;
+  }
+
+  .courses__picture {
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-logo {
+    margin-bottom: 30px;
+  }
+
+  .nav {
+    overflow-x: scroll;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero__content {
+    padding-top: 77px;
+  }
+
+  .advantages-img {
+    background-image: url("../img/advantages-sm.png");
+  }
+
+  .courses__btn {
+    padding: 20px 48px;
+  }
+
+  .courses__content {
+    min-height: 573px;
+  }
+}
+
+@media (max-width: 575px) {
+  .section-title {
+    font-size: 20px;
+  }
+
+  .hero__content,
+  .section-offset {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+  .hero__title {
+    margin-bottom: 15;
+    font-size: 30px;
+  }
+
+  .hero__text {
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .hero__btn {
+    padding: 20px 53px;
+    font-size: 16px;
+  }
+
+  .advantages-img {
+    display: none;
+  }
+
+  .advantages__title {
+    margin-bottom: 15;
+    line-height: 130%;
+  }
+
+  .advantages__item {
+    display: flex;
+  }
+
+  .advantages__list {
+    row-gap: 30px;
+  }
+
+  .advantages__item::before {
+    margin-bottom: 0;
+  }
+
+  .card__photo {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .courses__btn {
+    padding: 20px 55px;
+  }
+
+  .courses__douration {
+    right: 10px;
+  }
+
+  .courses__content {
+    min-height: 473px;
+  }
+}
+
+
